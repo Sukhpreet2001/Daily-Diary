@@ -1,13 +1,15 @@
 site_name: "Your Training Blog"  # Replace with your desired title
 docs_dir: training-weeks  # Directory containing Markdown files
-site_dir: https://sukhpreet2001.github.io/training-blog/  # Directory where the built site will be generated
+site_dir: ../site   # Directory where the built site will be generated
 
 nav:
   - Home: index.md  # Links to your homepage (index.md)
   - Training Weeks:   # Creates a dropdown menu for weekly content
     - source: .  # Specifies the current directory (training-weeks) containing weekly content
     - week-1.md                 # Lists individual Markdown files within the directory
-    - week-2.md                 # Add entries for subsequent weeks with the same indentation
+    - week-2.md 
+    - week-3.md
+    - week-4.md                # Add entries for subsequent weeks with the same indentation
 
 theme: material  # Theme selection (change if desired)
 

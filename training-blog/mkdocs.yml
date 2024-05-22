@@ -1,6 +1,7 @@
-site_name: "Your Training Blog"  # Replace with your desired title
+site_name: "Daily Diary"  # Replace with your desired title
 docs_dir: training-weeks  # Directory containing Markdown files
 site_dir: ../site   # Directory where the built site will be generated
+site_url: https://sukhpreet2001.github.io/Daily-Diary/
 
 nav:
   - Home: index.md  # Links to your homepage (index.md)
